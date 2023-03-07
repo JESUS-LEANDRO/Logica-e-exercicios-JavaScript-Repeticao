@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de programação</title>
+</head>
+<body>
+    <h1>Exercicio-2 Repetino ações </h1>
+
+    <script>
+         /*var ano = 1004; 
+         while(ano <= 2017){
+            document.write(ano + "<br>");
+            //ano = ano + 4;
+            ano += 4;
+         }*/ 
+
+         var ano = 1004; 
+
+         while(ano <= 2017){
+
+            if( !(ano % 100 === 0) || (ano % 400 === 0)){
+                document.write(ano + "<br>");
+            }
+            //ano = ano + 4;
+          else {
+            document.write(ano + " Não é bissextos <br>");
+        }
+        ano += 4;
+        }
+         //exercicio para coloca na tela de 1004 ate 2017
+    </script>
+</body>
+
+</html>
